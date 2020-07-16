@@ -1,0 +1,6 @@
+/**app.wxss**/
+.echart_panel {
+  width: 94%;
+  height: 250px;
+  padding: 0px 10px 10px 10px;
+}

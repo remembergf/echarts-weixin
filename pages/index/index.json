@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../ec-canvas/ec-canvas",
+    "echart_pie": "/component/echart_pie/echart_pie"
+  }
+}

@@ -1,0 +1,5 @@
+<!-- 饼图 -->
+    <view class="echart_panel">
+        {{ innerText }}
+        <ec-canvas ec="{{ ecLinePie }}"></ec-canvas>
+    </view>

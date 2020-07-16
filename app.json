@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "backgroundColor": "#0066ff",
+    "navigationBarBackgroundColor": "#0066ff",
+    "navigationBarTitleText": "智控中心",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#000",
+    "boderStyle": "dark",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "区域",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home-actived.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "教室",
+        "iconPath": "image/note.png",
+        "selectedIconPath": "image/note-actived.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

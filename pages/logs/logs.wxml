@@ -1,0 +1,38 @@
+<!--logs.wxml-->
+<view class="container">
+    <!-- 设备使用情况概览 -->
+    <view class="overview">
+        <view class="num">
+            <text class="num1"> {{ addList.devOnNum }}/{{ addList.devTotalNum }} </text>
+            <text class="des"> 开启设备数 </text>
+        </view>
+        <view class="num">
+            <text class="num1"> {{ addList.devOffNum }}/{{ addList.devTotalNum }} </text>
+            <text class="des"> 关闭设备数 </text>
+        </view>
+        <view class="num">
+            <text class="num1"> {{ addList.onPercentage}}/ </text>
+            <text class="des"> 平均设备数 </text>
+        </view>
+        <view class="num">
+            <text class="num1"> {{ addList.classRoomNum }}/ </text>
+            <text class="des"> 教室数量 </text>
+        </view>
+    </view>
+
+    <!-- 使用echarts标注模拟(折线图) -->
+    <view class="echart_panel">
+        <ec-canvas ec="{{ ecLine }}"></ec-canvas>
+    </view>
+    <!-- 柱状图 -->
+    <view class="echart_panel">
+        <ec-canvas ec="{{ ecLineBar }}"></ec-canvas>
+    </view>
+    <!-- 饼图 -->
+    <view class="echart_panel">
+        <ec-canvas ec="{{ ecLinePie }}"></ec-canvas>
+    </view>
+    <!-- <view>
+        <echart_pie></echart_pie>
+    </view> -->
+</view>
